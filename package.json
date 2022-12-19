@@ -36,7 +36,9 @@
     "eject": "react-scripts eject",
     "postinstall": "patch-package",
 
-},
+}, "browser": {
+    "stream": false
+  }
   "eslintConfig": {
     "extends": [
       "react-app",
